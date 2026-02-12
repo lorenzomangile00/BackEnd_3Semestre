@@ -1,5 +1,4 @@
-﻿using Exercicio05;
+﻿﻿using Exercicio05;
 
-Pessoa lorenzo = new Pessoa("Lorenzo", 15);
-
-        lorenzo.ExibirDados();
+Funcionario funcionario = new Funcionario("Lorenzo", 17, 5800.00);
+funcionario.ExibirDados();

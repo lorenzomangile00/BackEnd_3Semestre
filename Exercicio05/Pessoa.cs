@@ -8,6 +8,12 @@ namespace Exercicio05
 
         public int Idade;
 
+        public Pessoa(string nome, int idade)
+        {
+            Nome = nome;
+            Idade = idade;
+        }
+
         public void ExibirDados()
         {
         Console.WriteLine($"Nome: {Nome}");
@@ -25,11 +31,5 @@ namespace Exercicio05
                 System.Console.WriteLine("A idade é inválida");
             }
             }
-
-            public Pessoa(string nome, int idade)
-        {
-            Nome = nome;
-            Idade = idade; 
-        }
     }
 }
