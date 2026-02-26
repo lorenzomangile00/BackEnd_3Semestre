@@ -1,10 +1,21 @@
-﻿using Filmes.WebAPI.Interfaces;
+﻿using Filmes.WebAPI.BdContextFilme;
+using Filmes.WebAPI.Interfaces;
 using Filmes.WebAPI.Models;
 
 namespace Filmes.WebAPI.Repositories;
 
 public class FilmeRepository : IFilmeRepository
 {
+
+    private readonly FilmeContext _context;
+
+    public FilmeRepository(FilmeContext context)
+    {
+        _context = context;
+    }
+
+
+
     public void AtualizarIdCorpo(Filme filmeAtualizado)
     {
         throw new NotImplementedException();
@@ -22,7 +33,16 @@ public class FilmeRepository : IFilmeRepository
 
     public void Cadastrar(Filme novoFilme)
     {
-        throw new NotImplementedException();
+        try
+        {
+            novoFilme.IdFilme = Guid.NewGuid().ToString();
+
+            _context.Filmes.Add(novoFilme);
+            _context.SaveChanges();
+        }
+        catch (Exception)
+        {
+        }
     }
 
     public void Deletar(Guid id)
@@ -32,6 +52,15 @@ public class FilmeRepository : IFilmeRepository
 
     public List<Filme> Listar()
     {
-        throw new NotImplementedException();
+        try
+        {
+            List<Filme> listaFilmes = _context.Filmes.ToList();
+
+            return listaFilmes;
+        }
+        catch (Exception)
+        {
+            throw;
+        }
     }
 }
