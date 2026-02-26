@@ -467,3 +467,5 @@ C:\Users\53101823811\Desktop\BackEnd_3Semestre\APIs\Filmes.WebAPI\obj\Debug\net1
 C:\Users\53101823811\Desktop\BackEnd_3Semestre\APIs\Filmes.WebAPI\obj\Debug\net10.0\Filmes.WebAPI.pdb
 C:\Users\53101823811\Desktop\BackEnd_3Semestre\APIs\Filmes.WebAPI\obj\Debug\net10.0\Filmes.WebAPI.genruntimeconfig.cache
 C:\Users\53101823811\Desktop\BackEnd_3Semestre\APIs\Filmes.WebAPI\obj\Debug\net10.0\ref\Filmes.WebAPI.dll
+C:\Users\53101823811\Desktop\BackEnd_3Semestre\APIs\Filmes.WebAPI\bin\Debug\net10.0\BCrypt.Net-Next.dll
+C:\Users\53101823811\Desktop\BackEnd_3Semestre\APIs\Filmes.WebAPI\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

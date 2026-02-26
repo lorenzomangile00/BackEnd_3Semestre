@@ -16,6 +16,20 @@ public class FilmeController : ControllerBase
         _filmeRepository = filmeRepository;
     }
 
+    [HttpGet("{id}")]
+
+    public IActionResult GetById(Guid id)
+    {
+        try
+        {
+            return Ok(_filmeRepository.BuscarPorId(id));
+        }
+        catch (Exception erro) 
+        {
+            return BadRequest(erro.Message);
+        }
+    }
+
     [HttpGet]
 
     public IActionResult Get()
@@ -41,6 +55,51 @@ public class FilmeController : ControllerBase
         catch (Exception e)
         {
             return BadRequest(e.Message);
+        }
+    }
+
+    [HttpPut("{id}")]
+
+    public IActionResult Put(Guid id, Filme filmeAtualizado)
+    {
+        try
+        {
+            _filmeRepository.AtualizarIdUrl(id, filmeAtualizado);
+
+            return NoContent();
+        }
+        catch (Exception erro)
+        {
+            return BadRequest(erro.Message);
+        }
+    }
+
+    [HttpPut]
+
+    public IActionResult PutBody(Filme filmeAtualizado)
+    {
+        try
+        {
+            _filmeRepository.AtualizarIdCorpo(filmeAtualizado);
+            return NoContent();
+        }
+        catch (Exception erro)
+        {
+            return BadRequest(erro.Message);
+        }
+    }
+
+    [HttpDelete("{id}")]
+    public IActionResult Delete(Guid id)
+    {
+        try
+        {
+            _filmeRepository.Deletar(id);
+            return NoContent();
+        }
+        catch (Exception erro)
+        {
+            return BadRequest(erro.Message);
         }
     }
 }

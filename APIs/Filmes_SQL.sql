@@ -21,3 +21,10 @@ CREATE TABLE Usuario(
    Nome VARCHAR(100) NOT NULL,
    Senha VARCHAR(60) NOT NULL
 );
+
+
+
+ALTER TABLE Usuario
+DROP CONSTRAINT UQ_Usuario_Email UNIQUE (Email);
+
+SELECT * FROM Usuario;

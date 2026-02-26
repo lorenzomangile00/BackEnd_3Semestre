@@ -43,6 +43,8 @@ public partial class FilmeContext : DbContext
         modelBuilder.Entity<Usuario>(entity =>
         {
             entity.HasKey(e => e.IdUsuario).HasName("PK__Usuario__5B65BF97281162FB");
+
+            entity.Property(e => e.Email).HasDefaultValue("", "DF_Usuario_Email");
         });
 
         OnModelCreatingPartial(modelBuilder);
