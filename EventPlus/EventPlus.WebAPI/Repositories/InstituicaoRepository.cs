@@ -24,11 +24,11 @@ public class InstituicaoRepository : IInstituicaoRepository
 
         if (instituicaoBuscada != null)
         {
-            instituicaoBuscada.NomeFantasia = instituicao.NomeFantasia;
+            instituicaoBuscada.NomeFantasia = String.IsNullOrWhiteSpace(instituicao.NomeFantasia) ? instituicaoBuscada.NomeFantasia : instituicao.NomeFantasia; 
 
-            instituicaoBuscada.Cnpj = instituicao.Cnpj;
+            instituicaoBuscada.Cnpj = String.IsNullOrWhiteSpace(instituicao.Cnpj) ? instituicaoBuscada.Cnpj : instituicao.Cnpj;
 
-            instituicaoBuscada.Endereco = instituicao.Endereco;
+            instituicaoBuscada.Endereco = String.IsNullOrWhiteSpace(instituicao.Endereco) ? instituicaoBuscada.Endereco : instituicao.Endereco; 
 
             //O SaveChanges() detecta mudanca na propriedade titulo automaticamente
             _context.SaveChanges();
@@ -54,6 +54,8 @@ public class InstituicaoRepository : IInstituicaoRepository
         _context.Instituicaos.Add(instituicao);
         _context.SaveChanges();
     }
+
+
 
     /// <summary>
     /// Deleta uma instituicao
