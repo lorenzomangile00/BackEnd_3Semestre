@@ -1,3 +1,4 @@
+using Azure.AI.ContentSafety;
 using EventPlus.WebAPI.BdContextEvent;
 using EventPlus.WebAPI.Interfaces;
 using EventPlus.WebAPI.Repositories;
@@ -8,6 +9,14 @@ using Microsoft.OpenApi;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
+
+var endpoint = "";
+var apiKey = "";
+
+
+var client = new ContentSafetyClient(new Uri(endpoint), new Azure.AzureKeyCredential(apiKey));
+
+builder.Services.AddSingleton(client);
 
 builder.Services.AddDbContext<EventContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -25,6 +34,10 @@ builder.Services.AddScoped<IInstituicaoRepository, InstituicaoRepository>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
 builder.Services.AddScoped<IEventoRepository, EventoRepository>();
+
+builder.Services.AddScoped<IPresencaRepository, PresencaRepository>();
+
+builder.Services.AddScoped<IComentarioEventoRepository, ComentarioEventoRepository>();
 
 //Adiciona a autenticacao JWT
 

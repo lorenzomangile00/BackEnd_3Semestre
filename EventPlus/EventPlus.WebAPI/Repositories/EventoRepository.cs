@@ -22,7 +22,7 @@ public class EventoRepository : IEventoRepository
     /// <param name="evento">Nome do evento que foi atualizado</param>
     public void Atualizar(Guid id, Evento evento)
     {
-        var eventoBuscado = _context.Eventos.Find(evento);
+        var eventoBuscado = _context.Eventos.Find(id);
 
         if(eventoBuscado != null)
         {
@@ -35,6 +35,7 @@ public class EventoRepository : IEventoRepository
             _context.SaveChanges();
         }
     }
+
 
     /// <summary>
     /// Metodo que busca pelo id um evento especifico

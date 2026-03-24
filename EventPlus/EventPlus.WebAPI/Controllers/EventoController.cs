@@ -1,5 +1,7 @@
-﻿using EventPlus.WebAPI.Interfaces;
+﻿using EventPlus.WebAPI.DTO;
+using EventPlus.WebAPI.Interfaces;
 using EventPlus.WebAPI.Models;
+using EventPlus.WebAPI.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -74,17 +76,17 @@ public class EventoController : ControllerBase
     /// <param name="evento">Nome do evento a ser cadastrado</param>
     /// <returns>Status code 201 e um novo evento cadastrado</returns>
     [HttpPost]
-    public IActionResult Cadastrar(Evento evento)
+    public IActionResult Cadastrar(EventoDTO eventoDTO)
     {
         try
         {
             var novoEvento = new Evento
             {
-                Nome = evento.Nome!,
-                DataEvento = evento.DataEvento!,
-                Descricao = evento.Descricao!,
-                IdTipoEvento = evento.IdTipoEvento,
-                IdInstituicao = evento.IdInstituicao!
+                Nome = eventoDTO.Nome!,
+                DataEvento = (DateTime)eventoDTO.DataEvento!,
+                Descricao = eventoDTO.Descricao!,
+                IdTipoEvento = eventoDTO.IdTipoEvento,
+                IdInstituicao = eventoDTO.IdInstituicao!
             };
 
             _eventoRepository.Cadastrar(novoEvento);
@@ -98,5 +100,54 @@ public class EventoController : ControllerBase
         }
     }
 
+    /// <summary>
+    /// Endpoint da API que atualiza um evento
+    /// </summary>
+    /// <param name="eventoDTO">Nome do evento a ser atualizado</param>
+    /// <returns>Status code 204 e o evento atualizado</returns>
+    [HttpPut("{id}")]
+    public IActionResult Atualizar(Guid id, EventoDTO eventoDTO)
+    {
+        try
+        {
+            var eventoAtualizado = new Evento
+            {
+                Nome = eventoDTO.Nome!,
+                DataEvento = (DateTime)eventoDTO.DataEvento!,
+                Descricao = eventoDTO.Descricao!,
+                IdTipoEvento = eventoDTO.IdTipoEvento,
+                IdInstituicao = eventoDTO.IdInstituicao!
+            };
+
+            _eventoRepository.Atualizar(id, eventoAtualizado);
+
+            return StatusCode(204, eventoAtualizado);
+
+        }
+        catch (Exception erro)
+        {
+            return BadRequest(erro.Message);
+        }
+    }
+
+    /// <summary>
+    /// Endpoint da API que realiza o metodo de deletar
+    /// </summary>
+    /// <param name="id">Id do evento a ser deletado</param>
+    /// <returns>Status code 204 e o evento deletado</returns>
+    [HttpDelete("{id}")]
+    public IActionResult Deletar(Guid id)
+    {
+        try
+        {
+            _eventoRepository.Deletar(id);
+
+            return NoContent();
+        }
+        catch (Exception erro)
+        {
+            return BadRequest(erro.Message);
+        }
+    }
     
 }
