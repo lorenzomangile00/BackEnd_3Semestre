@@ -162,3 +162,5 @@ C:\Users\53101823811\Desktop\BackEnd_3Semestre\ConnectPlus\ConnectPlus\obj\Debug
 C:\Users\53101823811\Desktop\BackEnd_3Semestre\ConnectPlus\ConnectPlus\obj\Debug\net10.0\ConnectPlus.pdb
 C:\Users\53101823811\Desktop\BackEnd_3Semestre\ConnectPlus\ConnectPlus\obj\Debug\net10.0\ConnectPlus.genruntimeconfig.cache
 C:\Users\53101823811\Desktop\BackEnd_3Semestre\ConnectPlus\ConnectPlus\obj\Debug\net10.0\ref\ConnectPlus.dll
+C:\Users\53101823811\Desktop\BackEnd_3Semestre\ConnectPlus\ConnectPlus\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\53101823811\Desktop\BackEnd_3Semestre\ConnectPlus\ConnectPlus\bin\Debug\net10.0\ConnectPlus.staticwebassets.runtime.json
