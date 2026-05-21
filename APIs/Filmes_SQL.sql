@@ -9,12 +9,14 @@ CREATE TABLE Genero(
    Nome VARCHAR(100) NOT NULL
 );
 
+
 CREATE TABLE Filme(
    IdFilme VARCHAR(40) PRIMARY KEY,
    Imagem VARCHAR(100),
    Titulo VARCHAR(100) NOT NULL,
    IdGenero VARCHAR(40) FOREIGN KEY REFERENCES Genero(IdGenero)
 );
+
 
 CREATE TABLE Usuario(
    IdUsuario VARCHAR(40) PRIMARY KEY,

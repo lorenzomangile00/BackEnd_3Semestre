@@ -218,17 +218,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Genero"
+                "$ref": "#/components/schemas/GeneroDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Genero"
+                "$ref": "#/components/schemas/GeneroDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Genero"
+                "$ref": "#/components/schemas/GeneroDTO"
               }
             }
           }
@@ -465,12 +465,15 @@
             "minLength": 0,
             "type": "string",
             "nullable": true
-          },
-          "filmes": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Filme"
-            },
+          }
+        },
+        "additionalProperties": false
+      },
+      "GeneroDTO": {
+        "type": "object",
+        "properties": {
+          "nome": {
+            "type": "string",
             "nullable": true
           }
         },

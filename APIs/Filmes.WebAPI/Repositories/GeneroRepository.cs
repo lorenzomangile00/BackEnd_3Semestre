@@ -1,4 +1,5 @@
 ﻿using Filmes.WebAPI.BdContextFilme;
+using Filmes.WebAPI.DTO;
 using Filmes.WebAPI.Interfaces;
 using Filmes.WebAPI.Models;
 
@@ -54,6 +55,7 @@ public class GeneroRepository : IGeneroRepository
         }
     }
 
+
     public Genero BuscarPorId(Guid id)
     {
         try
@@ -82,6 +84,8 @@ public class GeneroRepository : IGeneroRepository
             throw;
         }
     }
+
+
 
     public void Deletar(Guid id)
     {

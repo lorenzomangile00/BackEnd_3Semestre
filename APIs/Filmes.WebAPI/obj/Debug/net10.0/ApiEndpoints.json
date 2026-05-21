@@ -133,8 +133,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "novoGenero",
-        "Type": "Filmes.WebAPI.Models.Genero",
+        "Name": "genero",
+        "Type": "Filmes.WebAPI.DTO.GeneroDTO",
         "IsRequired": true
       }
     ],

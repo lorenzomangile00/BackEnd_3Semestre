@@ -1,4 +1,5 @@
-﻿using Filmes.WebAPI.Interfaces;
+﻿using Filmes.WebAPI.DTO;
+using Filmes.WebAPI.Interfaces;
 using Filmes.WebAPI.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -46,10 +47,15 @@ namespace Filmes.WebAPI.Controllers
 
         [HttpPost]
 
-        public IActionResult Post(Genero novoGenero) 
+        public IActionResult Post(GeneroDTO genero) 
         {
             try
             {
+                var novoGenero = new Genero
+                {
+                    Nome = genero.Nome!
+                };
+
                 _generoRepository.Cadastrar(novoGenero);
                 return StatusCode(201);
             }

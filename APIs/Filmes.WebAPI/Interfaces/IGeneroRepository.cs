@@ -1,4 +1,5 @@
-﻿using Filmes.WebAPI.Models;
+﻿using Filmes.WebAPI.DTO;
+using Filmes.WebAPI.Models;
 
 namespace Filmes.WebAPI.Interfaces;
 
