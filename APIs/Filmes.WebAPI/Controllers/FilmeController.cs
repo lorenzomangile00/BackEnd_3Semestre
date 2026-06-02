@@ -114,7 +114,7 @@ public class FilmeController : ControllerBase
             var caminhoPasta = Path.Combine(Directory.GetCurrentDirectory(), pastaRelativa);
 
             //Deleta arquivo antigo
-            if (String.IsNullOrEmpty(filmeBuscado.Imagem))
+            if (!String.IsNullOrEmpty(filmeBuscado.Imagem))
             {
                 var caminhoAntigo = Path.Combine(caminhoPasta, filmeBuscado.Imagem);
 
@@ -177,11 +177,11 @@ public class FilmeController : ControllerBase
         var caminhoPasta = Path.Combine(Directory.GetCurrentDirectory(), pastaRelativa);
 
         //Deleta arquivo
-        if(String.IsNullOrEmpty(filmeBuscado.Imagem))
+        if (!String.IsNullOrEmpty(filmeBuscado.Imagem))
         {
             var caminho = Path.Combine(caminhoPasta, filmeBuscado.Imagem);
 
-            if(System.IO.File.Exists(caminho))
+            if (System.IO.File.Exists(caminho))
                 System.IO.File.Delete(caminho);
         }
 
