@@ -1,0 +1,229 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|c:\\users\\53101823811\\desktop\\backend_3semestre\\connectplus\\bitearcade.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|c:\\users\\53101823811\\desktop\\backend_3semestre\\connectplus\\bitearcade.webapi\\controllers\\jogocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|solutionrelative:controllers\\jogocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|c:\\users\\53101823811\\desktop\\backend_3semestre\\connectplus\\bitearcade.webapi\\dto\\jogodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|solutionrelative:dto\\jogodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|c:\\users\\53101823811\\desktop\\backend_3semestre\\connectplus\\bitearcade.webapi\\repositories\\jogorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|solutionrelative:repositories\\jogorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|c:\\users\\53101823811\\desktop\\backend_3semestre\\connectplus\\bitearcade.webapi\\interfaces\\ijogorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|solutionrelative:interfaces\\ijogorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|c:\\users\\53101823811\\desktop\\backend_3semestre\\connectplus\\bitearcade.webapi\\dto\\jogoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|solutionrelative:dto\\jogoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|c:\\users\\53101823811\\desktop\\backend_3semestre\\connectplus\\bitearcade.webapi\\models\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|solutionrelative:models\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|c:\\users\\53101823811\\desktop\\backend_3semestre\\connectplus\\bitearcade.webapi\\repositories\\generorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|solutionrelative:repositories\\generorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|c:\\users\\53101823811\\desktop\\backend_3semestre\\connectplus\\bitearcade.webapi\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|solutionrelative:repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|c:\\users\\53101823811\\desktop\\backend_3semestre\\connectplus\\bitearcade.webapi\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|solutionrelative:controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|c:\\users\\53101823811\\desktop\\backend_3semestre\\connectplus\\bitearcade.webapi\\interfaces\\igenerorepositoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|solutionrelative:interfaces\\igenerorepositoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|c:\\users\\53101823811\\desktop\\backend_3semestre\\connectplus\\bitearcade.webapi\\dto\\generodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|solutionrelative:dto\\generodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|c:\\users\\53101823811\\desktop\\backend_3semestre\\connectplus\\bitearcade.webapi\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD78A347-8401-3CCC-8C38-868DCAB32E4B}|BiteArcade.WebAPI.csproj|solutionrelative:interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1170,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JogoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\Repositories\\JogoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\JogoRepository.cs",
+              "ToolTip": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\Repositories\\JogoRepository.cs",
+              "RelativeToolTip": "Repositories\\JogoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T14:18:57.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JogoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\DTO\\JogoDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\JogoDTO.cs",
+              "ToolTip": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\DTO\\JogoDTO.cs",
+              "RelativeToolTip": "DTO\\JogoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T14:16:29.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JogoController.cs",
+              "DocumentMoniker": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\Controllers\\JogoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JogoController.cs",
+              "ToolTip": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\Controllers\\JogoController.cs",
+              "RelativeToolTip": "Controllers\\JogoController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T13:55:06.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JogoResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\DTO\\JogoResponseDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\JogoResponseDTO.cs",
+              "ToolTip": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\DTO\\JogoResponseDTO.cs",
+              "RelativeToolTip": "DTO\\JogoResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T18:38:04.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GeneroDTO.cs",
+              "DocumentMoniker": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\DTO\\GeneroDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\GeneroDTO.cs",
+              "ToolTip": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\DTO\\GeneroDTO.cs",
+              "RelativeToolTip": "DTO\\GeneroDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T14:15:42.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GeneroController.cs",
+              "DocumentMoniker": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\Controllers\\GeneroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GeneroController.cs",
+              "ToolTip": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\Controllers\\GeneroController.cs",
+              "RelativeToolTip": "Controllers\\GeneroController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T13:53:21.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T19:37:11.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GeneroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\Repositories\\GeneroRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\GeneroRepository.cs",
+              "ToolTip": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\Repositories\\GeneroRepository.cs",
+              "RelativeToolTip": "Repositories\\GeneroRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T14:30:16.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IJogoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\Interfaces\\IJogoRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IJogoRepository.cs",
+              "ToolTip": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\Interfaces\\IJogoRepository.cs",
+              "RelativeToolTip": "Interfaces\\IJogoRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T19:44:15.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T14:34:08.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Genero.cs",
+              "DocumentMoniker": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\Models\\Genero.cs",
+              "RelativeDocumentMoniker": "Models\\Genero.cs",
+              "ToolTip": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\Models\\Genero.cs",
+              "RelativeToolTip": "Models\\Genero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T18:32:28.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeToolTip": "Interfaces\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T19:45:54.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IGeneroRepositoy.cs",
+              "DocumentMoniker": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\Interfaces\\IGeneroRepositoy.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IGeneroRepositoy.cs",
+              "ToolTip": "C:\\Users\\53101823811\\Desktop\\BackEnd_3Semestre\\ConnectPlus\\BiteArcade.WebAPI\\Interfaces\\IGeneroRepositoy.cs",
+              "RelativeToolTip": "Interfaces\\IGeneroRepositoy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T19:43:08.633Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

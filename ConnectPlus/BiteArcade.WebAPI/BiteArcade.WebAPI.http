@@ -1,0 +1,6 @@
+@BiteArcade.WebAPI_HostAddress = http://localhost:5206
+
+GET {{BiteArcade.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
